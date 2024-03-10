@@ -10,3 +10,6 @@ The problem is to identify registered complaint will be disputed by customer or 
 
 ## Data Source
 https://www.consumerfinance.gov/data-research/consumer-complaints/
+
+## sample link to download data
+https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/?date_received_max=2022-04-29&date_received_min=2022-01-01&field=all&format=json&no_aggs=true&size=238777&sort=created_date_desc
