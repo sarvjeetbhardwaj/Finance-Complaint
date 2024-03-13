@@ -48,6 +48,7 @@ class DataIngestionConfig:
                 self.from_date = metadata_info.to_date
 
             self.download_dir = os.path.join(self.data_ingestion_dir, DATA_INGESTION_DOWNLOADED_DATA_DIR)
+            self.failed_dir = os.path.join(self.data_ingestion_dir, DATA_INGESTION_FAILED_DIR)
             self.file_name = DATA_INGESTION_FILE_NAME
             self.feature_store_dir = os.path.join(data_ingestion_master_dir, DATA_INGESTION_FEATURE_STORE_DIR)
             self.datasource_url = DATA_INGESTION_DATA_SOURCE_URL
