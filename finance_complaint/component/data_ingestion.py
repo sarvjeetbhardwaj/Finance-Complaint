@@ -16,7 +16,7 @@ class DataIngestion:
     #used to download data in chunks
     def __init__(self, data_ingestion_config: DataIngestionConfig, n_retry:int = 5):
         try:
-            logging.info(f'{'>>'*20}Starting DataIngestion.{'<<'*20}')
+            logging.info(f'{">>"*20}Starting DataIngestion.{"<<"*20}')
             self.data_ingestion_config = data_ingestion_config
             self.failed_download_urls = []
             self.n_retry = n_retry
