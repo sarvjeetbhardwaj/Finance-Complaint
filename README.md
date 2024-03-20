@@ -19,10 +19,15 @@ https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/
  - PySpark
  - Docker
  - Airflow
- - AWS 
+ - AWS S3
+ - AWS EMR
+ - AWS EC2
 
 ## To build docker image
     docker build --network=host .
 
 ## To run docker image
     docker run -p 8080:8080 -v $(pwd)/airflow/dags:/app/airflow/dags finance:latest
+
+## Project Workflow
+![alt text](<Training Pipeline.png>)
